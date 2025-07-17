@@ -4,7 +4,7 @@ setup(
     name='xml_flattener',
     version='0.1.1',
     description='ccc1 tool to flatten xml using a xsl template',
-    url='https://github.com/ricardogalindo24/xml_flattener',
+    url='https://github.com/ricardogalindo24/ccc1_xml_flattener',
     author='Ricardo Galindo',
     author_email='jrichardgali@outlook.com',
     license='Apache 2.0',
@@ -14,7 +14,7 @@ setup(
     include_package_data=True,
     install_requires=['pandas~=2.2.3',
                       'rich~=13.9.4',
-                      'lxml~=5.3.0',
+                      'lxml~=6.0.0',
                       'typer~=0.16.0',
                       ],
     classifiers=[
