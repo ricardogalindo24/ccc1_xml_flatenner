@@ -13,8 +13,8 @@ setup(
     package_data={"xml_flattener": ["xslt_example.xslt", "xslt_default.xslt"]},
     include_package_data=True,
     install_requires=['pandas~=2.2.3',
-                      'rich~=13.9.4',
                       'lxml~=6.0.0',
+                      'rich~=13.9.4',
                       'typer~=0.16.0',
                       ],
     classifiers=[
